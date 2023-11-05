@@ -1,6 +1,5 @@
 "use strict";
 import { Request, Response, NextFunction } from "express";
-import { type } from "os";
 var jwt = require('jsonwebtoken');
 
 export function get(req: Request,res: Response, next:NextFunction) {
